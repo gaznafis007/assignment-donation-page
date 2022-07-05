@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    overflow: hidden;
     box-sizing: border-box;
     font-family: Roboto;
 }
@@ -22,6 +23,7 @@ header{
 }
 .heading{
     font-size: 3rem;
+    text-transform: capitalize;
 }
 .text{
     line-height: 1.5;
@@ -39,4 +41,114 @@ header{
     padding: 10px 15px;
     margin-top: 2rem;
     border-radius: 4px;
+}
+/* header ends */
+main{
+    width: 85%;
+    margin: 6rem auto;
+}
+.donation-amount{
+    margin-bottom: 5rem;
+}
+.section-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.section-head p{
+    width: 50%;
+    font-weight: 600;
+    color: #707070;
+}
+.section-main{
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.amount{
+    background-color: #fafafa;
+    color: #666;
+    padding: 3rem 3rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+}
+h2{
+    font-size: 1.5rem;
+}
+#selected{
+    background-color: #ffeeee;
+    color: #ff5959;
+    border: 2px solid #ff5959;
+}
+.bottom-part{
+    text-align: center;
+    margin-top: 4rem;
+}
+.other-option{
+    color: #b3b3b3;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+hr{
+    width: 50%;
+    margin: 0 auto;
+    border: none;
+    border: 1px solid #dadada;
+}
+.plan{
+    border-radius: 5px;
+    padding: 2rem;
+    margin: 0.5rem;
+}
+h3{
+    margin-top: 1rem;
+    text-transform: capitalize;
+}
+.icon-text{
+    text-align: center;
+}
+
+.plan-1{
+    background-color: rgba(79, 157, 166, 0.1);
+}
+.plan-2{
+    background-color: rgba(255, 89, 89, 0.1);
+}
+.plan-3{
+    background-color: #FFF4D6;
+}
+/* main ends */
+footer{
+    background-color: #0B0D17;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 5rem;
+    color: #fff;
+}
+footer h2{
+    text-transform: capitalize;
+}
+.footer-social ul{
+    list-style-type: none;
+    display: flex;
+}
+.footer-social ul li a{
+    display: inline-block;
+    padding: 1rem 2rem;
+    color: #fff;
+    font-size: 1.5rem;
+}
+.footer-social ul li a:hover{
+    color: #ff5959;
+}
+#facebook:hover{
+    color: #4267B2;
+}
+#linked-in:hover{
+    color: #0072b1;
+}
+#twitter:hover{
+    color: #00acee;
 }
